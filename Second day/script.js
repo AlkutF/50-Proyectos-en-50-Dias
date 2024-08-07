@@ -1,4 +1,3 @@
-// script.js
 const progreso = document.getElementById('progreso');
 const anterior = document.getElementById('anterior');
 const siguiente = document.getElementById('siguiente');
