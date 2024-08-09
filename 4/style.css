@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    
+    display: flex;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    width: 0;
+    opacity: 0;
+    transition: width 1s ease, opacity 1s ease;
+}
+
+input[type="text"].show {
+    width: 200px;
+    opacity: 1;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 0 4px 4px 0;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
